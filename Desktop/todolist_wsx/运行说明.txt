@@ -1,0 +1,8 @@
+﻿//cnpm install -g json-serve
+cnpm install  安装
+//npm run server
+npm run dev	 启动
+
+直接访问  todolist_wsx/www/index.html
+
+karma start 启动 单元测试

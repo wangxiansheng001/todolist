@@ -1,0 +1,37 @@
+.btn3{
+    /* border:1px solid black; */
+    width:97px;
+    height: 80px;
+    /* background: green; */
+    margin-left: 50%;
+    margin-top:8.6%;
+    /* padding-top:5.0%; */
+    position: absolute;
+    color:red;
+    text-align: center;
+    
+}
+
+.btn4{
+    padding:63px 10px 0px 30px;
+    position: absolute;
+    animation:myfirst 1s  linear forwards;  
+    
+}
+
+@keyframes myfirst  
+{  
+/* 0%   { left:0px; top:0px;}  
+55%  { left:0px; top:-50px;}   */
+100%{
+    transform: translateY(-50px);
+    opacity:0;
+}
+50%{
+    transform: translateY(-20px);
+    opacity:1;
+}
+/* 50%  {background:blue; left:0px; top:-50px;}   */
+/* 75%  {left:0px; top:-70px;}  
+100% { left:0px; top:-100px;}   */
+}   

@@ -1,0 +1,16 @@
+.btn2{
+    
+    /* z-index: 1; */
+    
+    animation:first 1s;
+    position: relative;
+    left:  4px;
+    margin-right: 3px;
+    /* right:35px; */
+}
+
+@keyframes first  {
+    100%{
+        font-size: 28px;
+    }
+}

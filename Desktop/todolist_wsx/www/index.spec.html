@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>µãÔÞ!!!</title>
+	<link rel="stylesheet" href="./iconfont/iconfont.css">
+</head>
+<body>
+	<div id="root"></div>
+	
+	<script type="text/javascript" src="dist/bundle.js"></script>
+	<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/systemjs/0.20.2/system.js"></script>
+	<script type="text/javascript">
+		SystemJS.config({
+			baseURL: '/www/dist'
+		});
+		SystemJS.import('bundle.js').then(function(m) {
+			$.extend({
+					thumb: m.default.Thumb
+				
+			});
+			callBack();
+
+		});
+		function callBack(){
+			 var f = new $.thumb(0, $('#thumb'));
+			f.clickAction();
+		}
+    </script>
+</body>
+</html>
